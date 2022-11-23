@@ -1,0 +1,388 @@
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*css brand logo dan nama*/
+.brand span{
+    margin-left: 0;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.brand li,a,button{
+    font-family: "IBM_Plex_Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+    background-color:rgb(80, 0, 252);
+}
+.brand{
+    list-style: none;
+}
+.brand li{
+    display: inline-block;
+    padding: 2px;
+}
+.brand span{
+    margin-right: 750px;
+    text-shadow: 2px 2px 5px rgb(113, 6, 252);
+}
+
+.brand li a:hover{
+    color: rgb(217, 255, 80);
+}
+
+.brand input[type=search]{
+    border-radius: 15px;
+    padding: 9px 10px;
+}
+.brand button{
+    padding: 5px 5px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    image-resolution: 2px;
+    background-color: rgba(rgb(98, 0, 255));
+    border: none;
+    border-radius: 320px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.brand button:hover{
+    background-color: rgb(0, 255, 255);
+}
+
+/*Jumbotron*/
+.jumbotron{
+    height: 520px;
+    margin-top: 0px;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    background-image: url('p1.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+    transition: all 0.5s ease 0.5s;
+
+}
+.jumbotron:hover{
+    background-image: url('p2.jpg');
+    transition: all 0.1s ease 0.5s;
+}
+.text-brand{
+    margin-left: 50px;
+    padding: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 1.5px rgb(0, 0, 0);
+}
+.text-brand h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+.text-brand p{
+    text-align: justify;
+}
+.btn-jelajahi{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(125, 3, 255);
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-jelajahi:hover{
+    background-color: rgb(34, 255, 0);
+}
+.btn-jelajahi a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #edf0f1;
+    text-shadow: 2px 2px 5px navy;
+}
+.btn-video{
+    width: 200px;
+    height: 50px;
+    background-color: #1366e4;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-video:hover{
+    background-color: rgb(255, 181, 21);
+}
+.btn-video a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+/*konten objek wisata*/
+.objekwisata{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+    column-count: 2;
+    -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+}
+.objekwisata .gambarobjek{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.gambar .title{
+    text-align: center;
+    font-size: 15px;
+}
+.title{
+    text-align: right;
+    font-size: 15px;
+    color: black;
+   
+}
+.objekwisata .isian h1{
+    font-size: 35px;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    text-align: justify;
+}
+.objekwisata .isian p{
+    font-size: 20px;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    text-align: justify;
+    padding: 5px;
+}
+.objekwisata .isian h3{
+    font-size: 20px;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    text-align: justify;
+    padding: 5px;
+}
+.objekwisata .isian .baca{
+    font-size: 18px;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.objekwisata .isian .baca:hover{
+    color: rgb(0, 255, 21);
+}
+.objekwisata .gambar{
+    font-size: 20px;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+}
+.objekwisata .isian .gambar{
+    font-size: 20px;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.objekwisata .gambar .baca{
+    font-size: 18px;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.objekwisata .gambar .baca:hover{
+    color: rgb(98, 0, 255);
+}
+.link-img{
+    text-decoration: none;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    font-size: 20px;
+    height: auto;
+    margin: 2px;
+    cursor: pointer;
+    color: rgb(128, 0, 255);
+}
+/*sarana akomodasi*/
+.kolom{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+    column-count: 3;
+    -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+}
+.card{
+    box-shadow: none;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: "IBM_Plex_Sans", sans-serif;
+}
+.price{
+    color: rgb(89, 0, 255);
+    font-size: 22px;
+}
+.card button{
+    border: none;
+    outline: 0;
+    padding: 5px;
+    background-color: rgb(119, 0, 255);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.kolom h2{
+    border: none;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    outline: 0;
+    padding: 5px;
+    border-radius: 15;
+    margin: auto;
+    background-color: rgb(93, 0, 255);
+    text-align: center;
+    cursor:context-menu;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover{
+    opacity: 0.8;
+}
+.card:hover{
+    opacity: 0.2;
+    transition-delay: 0.1s;
+    transform: scale(0.9);
+}
+.star{
+    box-shadow: none;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: "IBM_Plex_Sans", sans-serif;
+}
+.star button{
+    border:none;
+    outline: 0;
+    padding: 5px;
+    background-color: rgb(83, 0, 248);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.star button:hover{
+    opacity: 0.8;
+}
+/*Contact*/
+.kontak-pesan{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+    column-count: 2;
+    -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+        background-size: "initial-1"
+}
+.form{
+    position: justify 100px;
+    margin: 10px;
+    padding: 30px 40px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    background-position: 60px 560px;
+}
+.form .nama, .email, .hari, .pesan, .tombol{
+    width: 500px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: right;
+} 
+
+.form .tombol{
+    border-radius: 10px;
+    padding: 1px 1px 10px;
+    text-align: center;
+    text-decoration-style: bold;
+    background-color: rgb(123, 0, 255);
+}
+.form h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+form .pesan{
+    height: 60px;
+}
+/*footer*/
+.footer{
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(155, 34, 255);
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 40px;
+    -moz-column-gap: 40px;
+    -webkit-column-gap: 40px;
+    border: 1px solid #ccc;
+}
+.footer p{
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    font-family: "IBM_Plex_Sans", sans-serif;
+}
+.footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer .contact{
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    font-family: "IBM_Plex_Sans", sans-serif;
+    text-decoration: none;
+}
+.footer .contact ul li:hover{
+    color: gold;
+}
+.form .tombol{
+    font-family: "IBM_Plex_Sans", sans-serif;
+    font-size: 20px;
+    transition: all 0.1s ease 0.5;
+}
+.tombol:hover{
+    background-color: gold;
+}
